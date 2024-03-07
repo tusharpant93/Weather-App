@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Snackpass</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", sans-serif;
+        background-color: #f4f4f4;
+      }
+      
+      .header {
+        background-color: #34495e;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .header h1 {
+        color: #ffffff;
+        font-size: 36px;
+        margin: 0;
+      }
+      
+      .banner {
+        background-image: url("banner.jpg");
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+      }
+      
+      .banner h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+      
+      .banner p {
+        font-size: 24px;
+        margin-bottom: 40px;
+      }
+      
+      .cta {
+        background-color: #34495e;
+        color: #ffffff;
+        padding: 15px 30px;
+        text-decoration: none;
+        margin: 0 auto;
+        display: block;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Snackpass</h1>
+    </header>
+    <section class="banner">
+      <h2>Order Ahead, Skip the Line</h2>
+      <p>Join the fastest growing college food ordering app!</p>
+      <a class="cta" href="#">Get Started</a>
+    </section>
+  </body>
+</html>
